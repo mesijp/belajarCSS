@@ -1,0 +1,59 @@
+
+.bagian{
+    background: blue;
+    width: 900px;
+    margin: 10px auto;
+}
+
+/*bagian kepala*/
+.bagian .kepala{
+    background: green;
+    /*height: 50px;*/
+    padding: 2px 10px;
+}
+
+/*akhir kepala*/
+
+/*bagian menu*/
+.bagian .menu{
+    background: yellow;
+}
+
+.bagian .menu ul{
+    padding: 0;
+    margin: 0;
+    background: yellow;
+    overflow: hidden;
+}
+
+.bagian .menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+.badan{
+    height: 450px;
+}
+/*bagian sidebar*/
+.bagian .badan .sidebar{
+    background: orange;
+    float: left;  
+    width: 25%;
+    height: 100%;
+}
+
+/*akhir sidebar*/
+
+.bagian .badan .content{
+    background: red;
+    float: left;
+    height: 100%;
+    width: 75%;  
+}
+
+.bagian .kaki{
+    width: 100%;
+    padding: 10px;
+}
